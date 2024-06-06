@@ -25,18 +25,22 @@ The repository was developed to identify and characterize enhancers using a mult
 ## Create virtual environment with following command: 
 
 >***1)*** conda create env -n MPDL-Enhancer python=3.6.
+>
 >***2)*** conda activate MPDL-Enhancer.
+>
 >***3)*** pip install requirements.txt.
 
 ## Extracting semantic information using deep learning networks 
 
->***1)*** Run *dna2vec.py* to get the word embedding matrix of the dna sequence. 
+>***1)*** Run *dna2vec.py* to get the word embedding matrix of the dna sequence.
+>
 >***2)*** Run *DL-network.py* to extract semantic information about the enhancers. 
 
 ## Extracting structural features of enhancer sequences 
 
 >***1)*** Run DNAshape.R on the R language platform to obtain the shape features of the sequence.
->***2)*** Run *SF-filter.py* to get other sequence structural features and then merge them with shape features for feature filtering by Adaboost. 
+>***2)*** Run *SF-filter.py* to get other sequence structural features and then merge them with shape features for feature filtering by Adaboost.
+>
 
 By modifying the --testDataset parameter, you can choose whether to extract features from the training or test set.
 
