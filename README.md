@@ -39,8 +39,8 @@ The repository was developed to identify and characterize enhancers using a mult
 ## Extracting structural features of enhancer sequences 
 
 >***1)*** Run DNAshape.R on the R language platform to obtain the shape features of the sequence.
->***2)*** Run *SF-filter.py* to get other sequence structural features and then merge them with shape features for feature filtering by Adaboost.
 >
+>***2)*** Run *SF-filter.py* to get other sequence structural features and then merge them with shape features for feature filtering by Adaboost.
 
 By modifying the --testDataset parameter, you can choose whether to extract features from the training or test set.
 
