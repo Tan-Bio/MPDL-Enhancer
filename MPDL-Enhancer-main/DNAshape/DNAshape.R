@@ -1,5 +1,0 @@
-BiocManager::install('DNAshapeR')
-library(DNAshapeR)
-setwd("MPDL-Enhancer/Dataset")
-fn <- getShape('train.txt', shapeType='Default', parse=TRUE, methylate=FALSE, methylatedPosFile=NULL)
-write.csv(fn,'train_shape.csv')
