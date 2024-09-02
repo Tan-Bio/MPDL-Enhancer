@@ -1,5 +1,5 @@
 # MPDL-Enhancer
-The repository was developed to identify and characterize enhancers using a multi-perspective deep learning framework (MPDL-Enhancer) 
+The repository was developed to characterize and identify enhancers using a multi-perspective deep learning framework (MPDL-Enhancer) 
 
 # Requirements
 - python == 3.6
